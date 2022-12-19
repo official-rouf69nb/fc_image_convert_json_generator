@@ -240,7 +240,7 @@ enum OutputExtension{
 }
 
 enum LocalSupportedInputExtension{
-  jpg, jpeg, png, bmp, gif, webp, ico, pdf, dib, heic, tiff, tif, tga, svg, cr2, cr3, nef, dng, psd, psb, crw, iiq, nrw, pef, avif, raf, kdc, rw2, rwl, none;
+  jpg, png, bmp, gif, webp, ico, pdf, dib, heic, tiff, tif, tga, svg, cr2, cr3, nef, dng, psd, psb, crw, iiq, nrw, pef, avif, raf, kdc, rw2, rwl, none;
 
   String getExtString(){
     return name.toLowerCase();
